@@ -1,0 +1,31 @@
+---
+title: Order Not Executing
+description: Fix unexecuted trade orders in SystemForge.
+---
+
+## Symptoms
+
+- Placed orders stay in "pending"
+- No trade confirmation
+
+## Possible Causes
+
+- Insufficient account balance
+- Exchange API issue
+- Invalid trading pair selected
+
+## Quick Fix
+
+<Steps>
+  <Step title="Check balance">
+    ````bash
+    # Log in and verify your available cryptocurrency funds
+    ````
+  </Step>
+  <Step title="Verify trading pair">
+    Ensure pair is supported by SystemForge and your exchange.
+  </Step>
+  <Step title="Reconnect API">
+    Visit "Settings" > "Exchange API" and reauthorize connection.
+  </Step>
+</Steps>
